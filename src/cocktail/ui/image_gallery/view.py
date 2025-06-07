@@ -15,7 +15,7 @@ class ImageWidget(QtWidgets.QWidget):
         super().__init__(parent=parent)
         self._image: QtGui.QImage = None
         self._idle_icon = qtawesome.icon("mdi.image-off").pixmap(128, 128).toImage()
-        self._placeholder = qtawesome.icon("fa.hourglass").pixmap(128, 128).toImage()
+        self._placeholder = qtawesome.icon("fa5s.hourglass-half").pixmap(128, 128).toImage()
 
         self._animation = QtCore.QVariantAnimation()
         self._animation.setStartValue(0)
