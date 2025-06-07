@@ -97,7 +97,7 @@ CATEGORIES = [
 
 CATEGORY_ICONS = {
     "character": "fa5.user-circle",
-    "style": "fa.paint-brush",
+    "style": "fa5s.paint-brush",
     "celebrity": "ei.adult",
     "concept": "mdi6.head-lightbulb",
     "clothing": "fa5s.tshirt",
@@ -107,14 +107,14 @@ CATEGORY_ICONS = {
     "tool": "fa5s.toolbox",
     "buildings": "fa5s.building",
     "vehicle": "mdi.car-hatchback",
-    "objects": "fa.coffee",
+    "objects": "fa5s.coffee",
     "animal": "fa5s.dog",
     "action": "mdi6.run-fast",
     "asset": "mdi.cube-scan",
 }
 
 MODEL_TYPE_ICONS = {
-    "All": "fa.asterisk",
+    "All": "fa5s.asterisk",
     "Checkpoint": "mdi.file-check",
     "TextualInversion": "mdi6.file-cloud",
     "AestheticGradient": "mdi.gradient",
@@ -124,9 +124,9 @@ MODEL_TYPE_ICONS = {
     "LoCon": "mdi.file-plus",
     "ControlNet": "ph.person-simple",
     "Poses": "mdi6.run-fast",
-    "Wildcards": "fa.asterisk",
+    "Wildcards": "fa5s.asterisk",
     "Workflows": "mdi.teach",
-    "VAE": "fa.arrows-h",
+    "VAE": "fa5s.arrows-alt-h",
     "Upscaler": "mdi6.image-size-select-large",
     "MotionModule": "mdi6.run-fast",
 }
